@@ -43,7 +43,6 @@ for (let i = 1; i <= nilai; i++) {
 
 }
 
-
 function greet(name) {
     return `Hello, ${name}`;
 }
