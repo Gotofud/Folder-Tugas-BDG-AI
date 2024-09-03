@@ -1,0 +1,115 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000;
+}
+
+.logo img {
+    width: 50px; /* Sesuaikan ukuran logo */
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-signup {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-signup-white {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero {
+  
+    background-image: url('bg.jpg'); /* Gantilah dengan gambar latar belakang */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 150px 20px;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.content {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
