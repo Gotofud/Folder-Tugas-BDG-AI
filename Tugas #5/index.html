@@ -3,55 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sigma Code</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="logo.jpg" alt="Logo"> <!-- Gantilah 'logo.png' dengan gambar logo yang sesuai -->
-        </div>
-        <div class="header-buttons">
-            <button class="btn-signup">Sign Up</button>
-            <button class="btn-signup-white">Sign In</button>
-        </div>
-    </header>
 
-    <section class="hero" >
-        <div class="hero-content">
-            <h1>Landing Page</h1>
-            <p>Lorem ipsum dolar sit amet</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand " href="#">Sigma Code</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Class</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                    <li class="nav-item"><a class="btn btn-primary" href="#">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-start">
+                    <h1 class="display-4 fw-bold">Lessons and insights <br><span class="highlight">from  8 years</span></h1>
+                    <p class="lead">Where to grow your business as a photographer: site or social media?</p>
+                    <a href="#" class="btn btn-dark">Register</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="3d-model.png" alt="Hero Image" class="img-fluid">
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="content">
-        <h2>Lorem ipsum</h2>
-        <div class="cards">
-            <div class="card">
-                <h3>Title</h3>
-                <ul>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Title</h3>
-                <ul>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Title</h3>
-                <ul>
-                    <li>List item</li>
-                    <li>List item</li>
-                    <li>List item</li>
-                </ul>
+    <!-- Features Section -->
+    <section class="features py-5 text-center">
+        <div class="container">
+            <h2 class="fw-bold">Manage your entire community <br> in a single system</h2>
+            <p class="lead mb-5">Who is Nextcent suitable for?</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <h4>Membership Organisations</h4>
+                        <p>Our membership management software provides full automation of membership renewals and payments.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <h4>National Associations</h4>
+                        <p>Our membership management software provides full automation of membership renewals and payments.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <h4>Clubs And Groups</h4>
+                        <p>Our membership management software provides full automation of membership renewals and payments.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Stats Section -->
+    <section class="stats bg-light py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3 class="fw-bold">2,245,341</h3>
+                    <p>Members</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fw-bold">46,328</h3>
+                    <p>Clubs</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fw-bold">828,867</h3>
+                    <p>Event Bookings</p>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="fw-bold">1,926,436</h3>
+                    <p>Payments</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet elit eu ligula mollis tempus. Integer in nisl eget nulla commodo faucibus.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="3d-model.png" alt="About Us Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial bg-light py-5 text-center">
+        <div class="container">
+            <blockquote class="blockquote">
+                <p class="mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet elit eu ligula mollis tempus."</p>
+                <footer class="blockquote-footer">Fazil Rausyan Fikri, Student of Assalaam Vocational High School</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">About us</a></li>
+                        <li><a href="#" class="text-light">Blog</a></li>
+                        <li><a href="#" class="text-light">Contact us</a></li>
+                        <li><a href="#" class="text-light">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Help center</a></li>
+                        <li><a href="#" class="text-light">Terms of service</a></li>
+                        <li><a href="#" class="text-light">Legal</a></li>
+                        <li><a href="#" class="text-light">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light">Facebook</a></li>
+                        <li><a href="#" class="text-light">Instagram</a></li>
+                        <li><a href="#" class="text-light">Twitter</a></li>
+                        <li><a href="#" class="text-light">YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Stay up to date</h5>
+                    <input type="email" class="form-control mb-2" placeholder="Your email address">
+                    <button class="btn btn-primary">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
