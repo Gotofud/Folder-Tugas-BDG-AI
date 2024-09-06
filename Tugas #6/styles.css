@@ -1,115 +1,98 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Arial', sans-serif;
-    color: #333;
+    line-height: 1.6;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #000;
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
 }
 
-.logo img {
-    width: 50px; /* Sesuaikan ukuran logo */
-}
-
-.header-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-.btn-signup {
-    background-color: #fff;
-    color: #000;
-    border: 2px solid #000;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.btn-signup-white {
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
+/* Hero Section */
 .hero {
-  
-    background-image: url('bg.jpg'); /* Gantilah dengan gambar latar belakang */
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding: 150px 20px;
-    position: relative;
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 100px 0;
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
-.hero p {
-    font-size: 1.25rem;
+.hero .highlight {
+    color: #0d6efd;
 }
 
-.content {
-    padding: 50px 20px;
-    text-align: center;
+.hero img {
+    max-width: 100%;
+    height: auto;
 }
 
-.content h2 {
-    font-size: 2.5rem;
+.hero .btn {
+    margin-top: 20px;
+}
+
+/* Features Section */
+.features h2 {
+    font-weight: bold;
+}
+
+.features .row {
+    margin-top: 50px;
+}
+
+.feature-box {
     margin-bottom: 40px;
+}
+
+/* Stats Section */
+.stats h3 {
+    font-size: 2rem;
     font-weight: bold;
 }
 
-.cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.stats p {
+    font-size: 1.1rem;
 }
 
-.card {
-    background-color: #fff;
-    padding: 30px 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: left;
+/* About Us Section */
+.about-us {
+    background-color: #f8f9fa;
 }
 
-.card h3 {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
+.about-us h2 {
     font-weight: bold;
 }
 
-.card ul {
-    list-style-type: none;
-    padding-left: 0;
+.about-us img {
+    max-width: 100%;
+    height: auto;
 }
 
-.card ul li {
+/* Testimonial Section */
+.testimonial {
+    background-color: #f8f9fa;
+}
+
+.testimonial blockquote {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer input[type="email"] {
     margin-bottom: 10px;
 }

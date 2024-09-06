@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a2e35;
+    color: white;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 15px;
+    color: #000000;
+}
+
+.btn-dark {
+    background-color: #063937;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #052e2c;
+}
+
+/* Contact Us Section */
+.contact-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact-us .form-control {
+    background-color: #29404b;
+    color: white;
+    border: 1px solid #29404b;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.contact-us .form-control:focus {
+    background-color: #1c2b33;
+    border: 1px solid #1c2b33;
+    color: white;
+}
+
+.contact-us .form-check-input {
+    background-color: #1c2b33;
+    border: 1px solid #1c2b33;
+}
+
+.contact-us .form-check-label {
+    color: #94a7a9;
+}
+
+.contact-us ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-us ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #94a7a9;
+}
+
+/* Footer */
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #94a7a9;
+}
+
+footer input[type="email"] {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
