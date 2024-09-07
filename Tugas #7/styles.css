@@ -1,0 +1,108 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+}
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 15px;
+    color: #000000;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero .highlight {
+    color: #0d6efd;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero .btn {
+    margin-top: 20px;
+}
+
+/* Features Section */
+.features h2 {
+    font-weight: bold;
+}
+
+.features .row {
+    margin-top: 50px;
+}
+
+.feature-box {
+    margin-bottom: 40px;
+}
+
+/* Stats Section */
+.stats h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stats p {
+    font-size: 1.1rem;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #f8f9fa;
+}
+
+.about-us h2 {
+    font-weight: bold;
+}
+
+.about-us img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #f8f9fa;
+}
+
+.testimonial blockquote {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer input[type="email"] {
+    margin-bottom: 10px;
+}
